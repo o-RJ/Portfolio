@@ -20,13 +20,6 @@ A modern, responsive portfolio website built with React and Vite, featuring:
 - React Simple Typewriter
 - React Starfield
 
-## Getting Started
-
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Run development server: `npm run dev`
-4. Build for production: `npm run build`
-
 ## Live Demo
 
 Visit the live portfolio at: [Your deployed URL here]
