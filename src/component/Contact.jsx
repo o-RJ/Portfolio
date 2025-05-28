@@ -7,7 +7,7 @@ const contact = () => {
         </h1>
 
         <p className="text-center text-lg font-semibold text-gray-500 cursor-pointer transition-all duration-300 hover:text-white">
-          Feel free to send me an E-mail through this button and I'll get back to you as soon as possible.
+          Feel free to send me an E-mail and I'll get back to you as soon as possible.
           <br />
               rjbanks38@gmail.com
         </p>
