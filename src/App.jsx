@@ -2,7 +2,7 @@ import Navbar from "./component/Navbar";
 import Hero from "./component/Hero";
 import Tech from "./component/Tech";
 import Project from "./component/Project";
-import Contact from "./component/contact";
+import Contact from "./component/Contact";
 
 function App() {
   return <>
