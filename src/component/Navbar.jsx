@@ -18,7 +18,7 @@ const Navbar = () => {
             <ul className="hidden md:flex gap-10">
                 <li><a href="#home" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">Home</a></li>
                 <li><a href="#tech" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">Tech</a></li>
-                <li><a href="#project" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">Project</a></li>
+                <li><a href="#project" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">Projects</a></li>
                 <li><a href="#contact" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">Contact</a></li>
             </ul>
 
@@ -55,7 +55,7 @@ const Navbar = () => {
                     <ul className="flex flex-col gap-8">
                         <li><a href="#home" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">Home</a></li>
                         <li><a href="#tech" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">Tech</a></li>
-                        <li><a href="#project" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">Project</a></li>
+                        <li><a href="#project" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">Projects</a></li>
                         <li><a href="#contact" className="cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100">Contact</a></li>
                     </ul>
                     <ul className="flex flex-wrap gap-5">
@@ -67,6 +67,11 @@ const Navbar = () => {
                         <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-orange-500 hover:opacity-100">
                             <a href="https://github.com/o-RJ" target="_blank" rel="noopener noreferrer">
                                 <BsGithub />
+                            </a>
+                        </li>
+                        <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-pink-500 hover:opacity-100">
+                            <a href="https://www.instagram.com/rjbanks_/" target="_blank" rel="noopener noreferrer">
+                                <BsInstagram />
                             </a>
                         </li>
                     </ul>

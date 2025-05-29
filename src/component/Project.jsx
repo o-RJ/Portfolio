@@ -16,7 +16,8 @@ const projectsData = [
   {
     image: image4,
     title: "ServeWell",
-    description: " ServeWell is a church management software specifically designed for small churches. Small churches need to be efficient with their money, their time, and their overall resources because those resources are scarce and dwindling.      https://github.com/hayleyowen/ServeWell/wiki            ",
+    description: " ServeWell is a church management software specifically designed for small churches. Small churches need to be efficient with their money, their time, and their overall resources because those resources are scarce and dwindling. ",
+    link: "https://github.com/hayleyowen/ServeWell/wiki ",
     technologies: ["Next.js","React", "tailwind-css", "Typescript", "docker", "Digital Ocean", "SQL", "Auth0"],
 
   },
@@ -47,7 +48,17 @@ const ProjectCard= ({ project }) => {
         
             <div className="text-xl font-semibold">{project.title}</div>
             <p className="text-gray-400">{project.description}</p>
-          </div>
+            {project.link && (
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 underline hover:text-blue-600 transition"
+              >
+                View Docs
+            </a>
+            )}
+      </div>
 
           <div className="flex flex-wrap gap-5">
             {project.technologies.map((tech, index) => (
